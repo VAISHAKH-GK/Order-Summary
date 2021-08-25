@@ -1,0 +1,10 @@
+[default]
+name=Default
+runtime=host
+config-opts=
+run-opts=
+prefix=/home/vaishakh/.cache/gnome-builder/install/order-summary-component-main/host
+app-id=
+postbuild=
+prebuild=
+default=true
