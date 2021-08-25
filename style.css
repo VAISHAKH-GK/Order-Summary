@@ -77,19 +77,25 @@ a{
     text-decoration: none;
 }
 .t-change{
-    color: blue;
-    text-decoration:underline rgb(0, 0, 255);
+    color: hsl(245, 75%, 52%);
+    text-decoration:underline hsl(224, 23%, 55%);
 
+}
+.t-change:hover{
+    color:  hsl(224, 23%, 55%);
 }
 .proceed-btn{
     margin-top: 30px;
-    background-color: blue;
+    background-color:  hsl(245, 75%, 52%);
     height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     margin-bottom: 30px;
+}
+.proceed-btn:hover{
+    background-color:  hsl(224, 23%, 55%);
 }
 .proceed-button{
     color: white;
@@ -103,6 +109,9 @@ a{
     color: #767779;
     font-weight: bold;
     margin-bottom: 20px;
+}
+.cancel-button:hover{
+    color:  hsl(223, 47%, 23%);
 }
 
 @media only screen and (max-width: 500px) {
