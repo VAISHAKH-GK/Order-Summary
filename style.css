@@ -5,6 +5,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     min-height: 100vh;
+    min-height: 100vh;
     background-image: url("images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -30,6 +31,7 @@ body{
     padding-left: 12%;
     padding-right: 12%;;
     text-align: center;
+    padding-bottom: 30px;
     
     
 }
@@ -38,6 +40,7 @@ body{
     font-weight: 900;
     font-size: 30px;
     text-align: center;
+    color: hsl(223, 47%, 23%);
 }
 
 .plan-box{
@@ -49,6 +52,7 @@ body{
     align-items: center;
     padding: 25px;
     height: 40px;
+    margin-top: 20px;
     
 }
 .plan-box-left{
@@ -57,6 +61,62 @@ body{
 }
 .left-text{
 
-    padding-left: 10px;
+    padding-left: 13px;
     align-items: center;
+}
+h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a{
+    
+    text-decoration: none;
+}
+.t-change{
+    color: blue;
+    text-decoration:underline rgb(0, 0, 255);
+
+}
+.proceed-btn{
+    margin-top: 30px;
+    background-color: blue;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.proceed-button{
+    color: white;
+    font-weight: bolder;
+    
+}
+.p-text{
+    color: #767779;
+}
+.cancel-button{
+    color: #767779;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .container{
+        max-width: 90%;
+    }
+    
+    body{
+        background-image: url("images/pattern-background-mobile.svg");
+        font-size: 14px;
+
+    }
+}
+
+@media only screen and (max-height:300px){
+    
 }
